@@ -5,6 +5,7 @@
         "craftcms/postmark": "3.0.0",
         "craftcms/redactor": "3.0.0",
         "ether/seo": "v4.0.3",
+        "needletail/needletail-craft": "^4.0",
         "nystudio107/craft-vite": "^4.0",
         "sebastianlenz/linkfield": "2.1.3-rc",
         "solspace/craft-freeform": "4.0.0-beta.12",

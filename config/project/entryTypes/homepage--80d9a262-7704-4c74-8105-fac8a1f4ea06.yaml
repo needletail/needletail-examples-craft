@@ -52,7 +52,7 @@ fieldLayouts:
 handle: homepage
 hasTitleField: false
 name: Homepagina
-section: 86be41fc-d84d-4aba-be49-924f2f74c092 # Homepagina
+section: 86be41fc-d84d-4aba-be49-924f2f74c092
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 544d6461-e2e5-460b-a848-b8faa0664953 # Social media
+            fieldUid: 544d6461-e2e5-460b-a848-b8faa0664953
             instructions: null
             label: null
             required: false

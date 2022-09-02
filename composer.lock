@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e61dbc345b892db0ea9d56c5be713c64",
+    "content-hash": "7503244a8b96a95edf95fc4f6dcd8ad1",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1961,6 +1961,103 @@
                 "psr-3"
             ],
             "time": "2022-06-09T08:59:12+00:00"
+        },
+        {
+            "name": "needletail/needletail-craft",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/needletail/needletail-craft.git",
+                "reference": "73c8e38ff543dd14fd80994b75c835cac95fa2bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/needletail/needletail-craft/zipball/73c8e38ff543dd14fd80994b75c835cac95fa2bc",
+                "reference": "73c8e38ff543dd14fd80994b75c835cac95fa2bc",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "needletail/needletail-php": "^3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Needletail",
+                "handle": "needletail",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/needletail-io/needletail-craft3/master/CHANGELOG.md",
+                "class": "needletail\\needletail\\Needletail"
+            },
+            "autoload": {
+                "psr-4": {
+                    "needletail\\needletail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Needletail",
+                    "homepage": "https://needletail.io"
+                }
+            ],
+            "description": "Needletail Search and Index package for Craft CMS",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "needletail"
+            ],
+            "support": {
+                "issues": "https://github.com/needletail/needletail-craft/issues",
+                "source": "https://github.com/needletail/needletail-craft/tree/v4.0.4"
+            },
+            "time": "2022-07-20T07:20:26+00:00"
+        },
+        {
+            "name": "needletail/needletail-php",
+            "version": "v3.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/needletail/needletail-php.git",
+                "reference": "02df73b969646bd991b6dfb9e2167fb64c21f7e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/needletail/needletail-php/zipball/02df73b969646bd991b6dfb9e2167fb64c21f7e3",
+                "reference": "02df73b969646bd991b6dfb9e2167fb64c21f7e3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6|^7"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Needletail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Creativeorange",
+                    "email": "info@creativeorange.nl"
+                }
+            ],
+            "description": "A PHP interface for Needletail.",
+            "support": {
+                "issues": "https://github.com/needletail/needletail-php/issues",
+                "source": "https://github.com/needletail/needletail-php/tree/v3.0.17"
+            },
+            "time": "2022-03-30T13:28:45+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -5893,5 +5990,5 @@
     "platform-overrides": {
         "php": "8.0.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

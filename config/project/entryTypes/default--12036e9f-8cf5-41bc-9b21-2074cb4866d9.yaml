@@ -32,7 +32,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 24f17415-8885-426b-a272-f0957203b94d # SEO
+            fieldUid: 24f17415-8885-426b-a272-f0957203b94d
             instructions: null
             label: null
             required: false
@@ -46,7 +46,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Standaard
-section: 3ec5953f-6ca3-4842-849d-3c0ebdbae6a1 # Pagina's
+section: 3ec5953f-6ca3-4842-849d-3c0ebdbae6a1
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

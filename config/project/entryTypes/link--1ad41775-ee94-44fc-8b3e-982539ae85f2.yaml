@@ -28,7 +28,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 01fbd320-869f-4cca-a22a-00fdb1a91bc8 # Pagina
+            fieldUid: 01fbd320-869f-4cca-a22a-00fdb1a91bc8
             instructions: null
             label: null
             required: false
@@ -42,7 +42,7 @@ fieldLayouts:
 handle: link
 hasTitleField: false
 name: Link
-section: 241c9473-f9af-4087-a595-ca0567f41e93 # Hoofdmenu
+section: 241c9473-f9af-4087-a595-ca0567f41e93
 sortOrder: 1
 titleFormat: '{entryLink.getText|length > 50 ? entryTitle|slice(0, 50) ~ ''...'' : entryLink.getText}'
 titleTranslationKeyFormat: null

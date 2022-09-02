@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: nl
-name: $SITE_NAME
+name: 'Needletail Examples'
 primary: true
-siteGroup: 9f30bcf1-020d-4b10-8ea0-3d1ff4584ed9 # $SITE_NAME
+siteGroup: 9f30bcf1-020d-4b10-8ea0-3d1ff4584ed9
 sortOrder: 1
