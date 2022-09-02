@@ -1,0 +1,18 @@
+{% if handle is defined %}
+    {% set form = craft.freeform.form(handle) %}
+
+    {{ form.render({
+        rowClass: '',
+        columnClass: '',
+        labelClass: '',
+        inputClass: '',
+        submitClass: '',
+        instructionsBelowField: true,
+        overrideValues: {
+            sendFrom: craft.app.request.absoluteUrl ?? null,
+        },
+        formAttributes: {
+            "data-formname": form.handle,
+        }
+    }) }}
+{% endif %}

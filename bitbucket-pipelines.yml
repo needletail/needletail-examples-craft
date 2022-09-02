@@ -1,0 +1,36 @@
+image: lorisleiva/laravel-docker:7.4
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Deploy the Application to production
+          deployment: production
+          caches:
+            - comp
+          script:
+            - export COMPOSER_ALLOW_SUPERUSER=1;
+            - mkdir -p ~/.ssh
+            - ssh-keyscan $AVAILABLE_SERVERS >> ~/.ssh/known_hosts
+            - (umask 077 ; echo $SSH_PIPELINES | base64 -d > ~/.ssh/id_rsa)
+            - composer config http-basic.satis.creativeorange.dev $SATIS_USERNAME $SATIS_PASSWORD
+            - composer global require deployer/deployer
+            - composer global require deployer/recipes --dev
+            - /root/.composer/vendor/bin/dep deploy production -o satis_username=$SATIS_USERNAME -o satis_password=$SATIS_PASSWORD
+    development:
+      - step:
+          name: Deploy the Application to staging
+          deployment: staging
+          caches:
+            - comp
+          script:
+            - export COMPOSER_ALLOW_SUPERUSER=1;
+            - mkdir -p ~/.ssh
+            - ssh-keyscan $AVAILABLE_SERVERS >> ~/.ssh/known_hosts
+            - (umask 077 ; echo $SSH_PIPELINES | base64 -d > ~/.ssh/id_rsa)
+            - composer config http-basic.satis.creativeorange.dev $SATIS_USERNAME $SATIS_PASSWORD
+            - composer global require deployer/deployer
+            - composer global require deployer/recipes --dev
+            - /root/.composer/vendor/bin/dep deploy staging -o satis_username=$SATIS_USERNAME -o satis_password=$SATIS_PASSWORD
+definitions:
+  caches:
+    comp: /composer/cache

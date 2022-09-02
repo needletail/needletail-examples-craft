@@ -1,0 +1,19 @@
+<div class="carousel">
+    <div class="container">
+        <button class="swiper-prev group bg-black w-10 h-10 rounded-full mr-2 transition enabled:hover:bg-opacity-80 disabled:opacity-20 disabled:cursor-not-allowed">
+            <i class="fa-solid fa-chevron-left text-white transition group-enabled:group-hover:text-navy"></i>
+        </button>
+
+        <button class="swiper-next group bg-black w-10 h-10 rounded-full transition enabled:hover:bg-opacity-80 disabled:opacity-20 disabled:cursor-not-allowed">
+            <i class="fa-solid fa-chevron-right text-white transition group-enabled:group-hover:text-navy"></i>
+        </button>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                {% for item in 1..6 %}
+                    <div class="swiper-slide w-96 h-20 mr-12 border border-black"></div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

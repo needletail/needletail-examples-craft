@@ -1,0 +1,5 @@
+{% set contentBlocks = entry.contentMatrix.all() ?? null %}
+{% if contentBlocks|length %}
+        {% include "_includes/partials/content-blocks/" ~ block.type %}
+    {% endfor %}
+{% endif %}

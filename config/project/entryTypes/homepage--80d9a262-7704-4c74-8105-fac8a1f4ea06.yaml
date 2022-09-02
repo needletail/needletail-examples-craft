@@ -1,0 +1,59 @@
+fieldLayouts:
+  f69ce864-1286-4618-b2f1-064dcc270d5f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4461c8e2-68ea-4786-a0b8-a8de23232b0d
+            warning: null
+            width: 100
+          -
+            fieldUid: 09cd5a50-cc2d-4bf2-a8b0-7a3d515b0492
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b716291b-5355-4424-8250-1a1968dc44c2
+            warning: null
+            width: 50
+          -
+            fieldUid: 31c9d12d-ce1e-43e6-848d-85516351a4a6
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba0d470e-ca67-4113-9f2c-62e3c5bc77c0
+            warning: null
+            width: 50
+        name: Inhoud
+        uid: a6ae6d4a-3c62-48b0-9e71-184b325ed328
+handle: homepage
+hasTitleField: false
+name: Homepagina
+section: 86be41fc-d84d-4aba-be49-924f2f74c092 # Homepagina
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

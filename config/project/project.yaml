@@ -1,0 +1,209 @@
+dateModified: 1654859415
+elementSources:
+  craft\elements\Entry:
+    -
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - link
+      type: native
+    -
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+      type: native
+    -
+      heading: Structuren
+      type: heading
+    -
+      disabled: false
+      key: 'section:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+      tableAttributes:
+        - link
+      type: native
+    -
+      heading: Navigatie
+      type: heading
+    -
+      disabled: false
+      key: 'section:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+      tableAttributes: '-'
+      type: native
+email:
+  fromEmail: $SYSTEM_EMAIL
+  fromName: $SITE_NAME
+  replyToEmail: null
+  template: null
+  transportSettings:
+    messageStream: ''
+    token: $POSTMARK_SERVER_API_TOKEN
+  transportType: craftcms\postmark\Adapter
+fs:
+  files:
+    hasUrls: true
+    name: Bestanden
+    settings:
+      path: '@webroot/upload/files'
+    type: craft\fs\Local
+    url: /upload/files
+  images:
+    hasUrls: true
+    name: Afbeeldingen
+    settings:
+      path: '@webroot/upload/images'
+    type: craft\fs\Local
+    url: /upload/images
+  logos:
+    hasUrls: true
+    name: 'Logo''s'
+    settings:
+      path: '@webroot/upload/logos'
+    type: craft\fs\Local
+    url: /upload/logos
+meta:
+  __names__:
+    0d1d8236-5a08-48cf-861b-5d27bc2ea465: Bestanden # Bestanden
+    1ad41775-ee94-44fc-8b3e-982539ae85f2: Link # Link
+    01fbd320-869f-4cca-a22a-00fdb1a91bc8: Pagina # Pagina
+    2ae46a9f-5d57-42d5-b1a7-41d131d80926: $SITE_NAME # $SITE_NAME
+    3ec5953f-6ca3-4842-849d-3c0ebdbae6a1: 'Pagina''s' # Pagina's
+    6b14e9b9-b60c-4284-a461-9fecb8f9d9c8: Afbeeldingen # Afbeeldingen
+    9f30bcf1-020d-4b10-8ea0-3d1ff4584ed9: $SITE_NAME # $SITE_NAME
+    24f17415-8885-426b-a272-f0957203b94d: SEO # SEO
+    50b60208-9b1d-4e03-b961-5954874d95b7: 'Logo''s' # Logo's
+    68a697ab-e469-473a-8e9a-f80586424afe: Postcode # Postcode
+    70f2071a-601c-43ea-842a-b99041a654d1: Tekst # Tekst
+    80d9a262-7704-4c74-8105-fac8a1f4ea06: Homepagina # Homepagina
+    86be41fc-d84d-4aba-be49-924f2f74c092: Homepagina # Homepagina
+    241c9473-f9af-4087-a595-ca0567f41e93: Hoofdmenu # Hoofdmenu
+    538f0283-03ce-41ce-b21f-86459dad4436: Afbeelding # Afbeelding
+    544d6461-e2e5-460b-a848-b8faa0664953: 'Social media' # Social media
+    554d42e2-5ffa-4509-8ff1-9daee2ebd682: Link # Link
+    700d2951-8b0c-4967-a8ad-a1b4d75c8a39: Adres # Adres
+    6906c1bc-4c61-4a8c-93e0-7136a4bebf9d: Contact # Contact
+    8945a786-8537-4a19-bf39-10657b1b72e8: 'Content beheerders' # Content beheerders
+    12036e9f-8cf5-41bc-9b21-2074cb4866d9: Standaard # Standaard
+    38492fce-56d6-4ccc-b99c-110a15bff331: Socials # Socials
+    b1545ecb-a324-43f5-92c9-e69c40ae5e57: E-mailadres # E-mailadres
+    bc8624c2-e213-4ef9-9cb3-fe11ae404268: Telefoon # Telefoon
+    e4858655-0573-47a8-b27f-81be06276f46: Common # Common
+    ecdd2e9c-0d0c-4384-a787-0aed387e0072: Plaats # Plaats
+    f3f06cab-617e-47bd-b555-75b803e2927c: 'Algemene content' # Algemene content
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  freeform:
+    edition: pro
+    enabled: true
+    licenseKey: 23VWKYTIV6JXXIXVJOSBRDB7
+    schemaVersion: 4.2.2
+    settings:
+      ajaxByDefault: true
+      alertNotificationRecipients: null
+      autoScroll: true
+      autoScrollToErrors: true
+      badgeType: all
+      blockedEmails: null
+      blockedEmailsError: 'Invalid Email Address'
+      blockedIpAddresses: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      bypassSpamCheckOnLoggedInUsers: false
+      clientDigestFrequency: 1
+      clientDigestRecipients: null
+      customErrorMessage: null
+      customHoneypotName: null
+      defaultTemplates: true
+      defaultView: dashboard
+      digestFrequency: 1
+      digestOnlyOnProduction: false
+      digestRecipients: null
+      displayFeed: true
+      emailTemplateDirectory: _form-emails
+      exportLabels: ''
+      fieldDisplayOrder: name
+      fillWithGet: false
+      footerScripts: false
+      formFieldShowOnlyAllowedForms: ''
+      formSubmitDisable: true
+      formSubmitExpiration: null
+      formTemplateDirectory: null
+      formattingTemplate: flexbox.twig
+      freeformHoneypot: true
+      freeformHoneypotEnhancement: false
+      hideBannerDemo: '1'
+      hideBannerOldFreeform: false
+      minimumSubmitTime: null
+      pluginName: Formulieren
+      purgableSpamAgeInDays: null
+      purgableSubmissionAgeInDays: '0'
+      purgableUnfinalizedAssetAgeInMinutes: 180
+      recaptchaBehaviour: display_error
+      recaptchaEnabled: '1'
+      recaptchaErrorMessage: 'Please verify that you are not a robot.'
+      recaptchaKey: $RECAPTCHA_SITE_KEY
+      recaptchaLazyLoad: '1'
+      recaptchaMinScore: '0.5'
+      recaptchaSecret: $RECAPTCHA_SECRET_KEY
+      recaptchaSize: normal
+      recaptchaTheme: light
+      recaptchaType: v3
+      rememberPageSubmitOrder: true
+      removeNewlines: ''
+      renderFormHtmlInCpViews: true
+      salesforce_client_id: null
+      salesforce_client_secret: null
+      salesforce_password: null
+      salesforce_username: null
+      saveFormSessionLimit: 10
+      saveFormTtl: 30
+      scriptInsertLocation: footer
+      scriptInsertType: pointers
+      sessionContext: payload
+      sessionContextCount: 100
+      sessionContextSecret: ''
+      sessionContextTimeToLiveMinutes: 180
+      sessionEntryMaxCount: 50
+      sessionEntryTTL: 10800
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      showTutorial: true
+      spamFolderEnabled: true
+      spamProtectionBehaviour: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      successTemplateDirectory: _form-success
+      twigInHtml: true
+      twigInHtmlIsolatedMode: true
+      updateSearchIndexes: '1'
+  postmark:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: pro
+  live: true
+  name: $SITE_NAME
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/Amsterdam
