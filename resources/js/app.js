@@ -6,5 +6,6 @@ import('./needletail/home-search-bar');
 import('./needletail/result-search-bar');
 import('./needletail/geo-search-bar');
 import('./needletail/result');
+import('./needletail/aggregation');
 
 import('../sass/app.scss');

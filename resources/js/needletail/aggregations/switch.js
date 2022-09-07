@@ -1,9 +1,9 @@
 import {Switch} from "@needletail/ui";
 import SwitchTemplate from "./../templates/aggregations/switch";
 
-export default (Switch({
-    title: '', // The title of the Checkbox filter.
-    attribute: '', // What attribute are we filtering on.
+export default (new Switch({
+    title: ``, // The title of the Checkbox filter.
+    attribute: ``, // What attribute are we filtering on.
     collapsible: false, // Can the filter be collapsed.
     default_collapsed: false, // Is the filter collapsed by default, option does nothing when `collapsible` is set to false.
     on_value: `On`, // The value if the switch is enabled.

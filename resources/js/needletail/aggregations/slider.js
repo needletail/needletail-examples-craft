@@ -1,7 +1,7 @@
 import {Slider} from "@needletail/ui";
 import SliderTemplate from "./../templates/aggregations/slider";
 
-export default (Slider({
+export default (new Slider({
     title: ``, // The title of the Checkbox filter.
     attribute: ``, // What attribute are we filtering on.
     collapsible: false, // Can the filter be collapsed.

@@ -1,9 +1,9 @@
 import {Checkbox} from "@needletail/ui";
 import CheckboxTemplate from "./../templates/aggregations/checkbox";
 
-export default (Checkbox({
-    title: '', // The title of the Checkbox filter.
-    attribute: '', // What attribute are we filtering on.
+export default (new Checkbox({
+    title: ``, // The title of the Checkbox filter.
+    attribute: ``, // What attribute are we filtering on.
     collapsible: false, // Can the filter be collapsed.
     default_collapsed: false, // Is the filter collapsed by default, option does nothing when `collapsible` is set to false.
     hide_on_empty: true, // Hide the filter when there are no options to show.
