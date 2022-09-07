@@ -5,5 +5,5 @@ hasUrls: true
 language: nl
 name: 'Needletail Examples'
 primary: true
-siteGroup: 9f30bcf1-020d-4b10-8ea0-3d1ff4584ed9
+siteGroup: 9f30bcf1-020d-4b10-8ea0-3d1ff4584ed9 # $SITE_NAME
 sortOrder: 1

@@ -4,72 +4,72 @@ name: 'Content beheerders'
 permissions:
   - accesscp
   - administrateusers
-  - 'assignusergroup:8945a786-8537-4a19-bf39-10657b1b72e8'
+  - 'assignusergroup:8945a786-8537-4a19-bf39-10657b1b72e8' # Content beheerders
   - assignuserpermissions
-  - 'createentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'createentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'createfolders:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'createfolders:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'createfolders:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'deleteassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'deleteassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'deleteassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'deleteentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'deleteentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'deletepeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'deletepeerassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'deletepeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'deletepeerentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'deletepeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'deletepeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'deletepeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'deletepeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092'
-  - 'editglobalset:38492fce-56d6-4ccc-b99c-110a15bff331'
-  - 'editglobalset:6906c1bc-4c61-4a8c-93e0-7136a4bebf9d'
-  - 'editglobalset:f3f06cab-617e-47bd-b555-75b803e2927c'
-  - 'editimages:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'editimages:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'editimages:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'editpeerimages:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'editpeerimages:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'editpeerimages:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
+  - 'createentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'createentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'createfolders:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'createfolders:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'createfolders:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'deleteassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'deleteassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'deleteassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'deleteentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'deleteentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'deletepeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'deletepeerassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'deletepeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'deletepeerentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'deletepeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'deletepeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'deletepeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'deletepeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092' # Homepagina
+  - 'editglobalset:38492fce-56d6-4ccc-b99c-110a15bff331' # Socials
+  - 'editglobalset:6906c1bc-4c61-4a8c-93e0-7136a4bebf9d' # Contact
+  - 'editglobalset:f3f06cab-617e-47bd-b555-75b803e2927c' # Algemene content
+  - 'editimages:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'editimages:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'editimages:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'editpeerimages:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'editpeerimages:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'editpeerimages:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
   - editusers
   - impersonateusers
   - manageredirects
   - managesitemap
   - moderateusers
   - registerusers
-  - 'replacefiles:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'replacefiles:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'replacefiles:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'replacepeerfiles:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'replacepeerfiles:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'replacepeerfiles:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'saveassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'saveassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'saveassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'saveentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'saveentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'saveentries:86be41fc-d84d-4aba-be49-924f2f74c092'
-  - 'savepeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'savepeerassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'savepeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'savepeerentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'savepeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'savepeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'savepeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'savepeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092'
-  - 'viewassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'viewassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'viewassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'viewentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'viewentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'viewentries:86be41fc-d84d-4aba-be49-924f2f74c092'
-  - 'viewpeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465'
-  - 'viewpeerassets:50b60208-9b1d-4e03-b961-5954874d95b7'
-  - 'viewpeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8'
-  - 'viewpeerentries:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'viewpeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'viewpeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93'
-  - 'viewpeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1'
-  - 'viewpeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092'
+  - 'replacefiles:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'replacefiles:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'replacefiles:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'replacepeerfiles:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'replacepeerfiles:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'replacepeerfiles:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'saveassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'saveassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'saveassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'saveentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'saveentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'saveentries:86be41fc-d84d-4aba-be49-924f2f74c092' # Homepagina
+  - 'savepeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'savepeerassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'savepeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'savepeerentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'savepeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'savepeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'savepeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'savepeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092' # Homepagina
+  - 'viewassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'viewassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'viewassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'viewentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'viewentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'viewentries:86be41fc-d84d-4aba-be49-924f2f74c092' # Homepagina
+  - 'viewpeerassets:0d1d8236-5a08-48cf-861b-5d27bc2ea465' # Bestanden
+  - 'viewpeerassets:50b60208-9b1d-4e03-b961-5954874d95b7' # Logo's
+  - 'viewpeerassets:6b14e9b9-b60c-4284-a461-9fecb8f9d9c8' # Afbeeldingen
+  - 'viewpeerentries:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'viewpeerentries:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'viewpeerentrydrafts:241c9473-f9af-4087-a595-ca0567f41e93' # Hoofdmenu
+  - 'viewpeerentrydrafts:3ec5953f-6ca3-4842-849d-3c0ebdbae6a1' # Pagina's
+  - 'viewpeerentrydrafts:86be41fc-d84d-4aba-be49-924f2f74c092' # Homepagina

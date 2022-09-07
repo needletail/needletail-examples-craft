@@ -1,0 +1,21 @@
+{% extends "_layout/base" %}
+
+{% block content %}
+    <form action="#">
+        <div id="result-search-bar"></div>
+        <div id="geo-search-bar"></div>
+
+        <input type="hidden" id="geo-coordinates-lng" name="geo-coordinates-lng"/>
+        <input type="hidden" id="geo-coordinates-lat" name="geo-coordinates-lat"/>
+        <select id="geo-coordinates-distance" name="geo-coordinates-distance">
+            <option value="1000">Alle afstanden</option>
+            <option value="10" selected="selected">&lt; 10 km</option>
+            <option value="25">&lt; 25 km</option>
+            <option value="50">&lt; 50 km</option>
+        </select>
+
+        <button type="submit" id="result-search-button">Klik hier</button>
+    </form>
+
+    <div id="result"></div>
+{% endblock %}

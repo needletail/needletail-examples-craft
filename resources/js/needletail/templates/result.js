@@ -1,0 +1,32 @@
+export default `
+<div class="needletail-result">
+    <div class="needletail-total-results">
+        {{ total_results_text }}
+    </div>
+    {{#use_sort_select}}
+        {{{ sort_select }}}
+    {{/use_sort_select}}
+    <div class="needletail-result-results {{ hide_on_initial_request }}">
+        {{{results}}}
+    </div>
+    {{#infinite_scroll}}
+    <div class="needletail-loader infinity-scroll"></div>
+    {{/infinite_scroll}}
+
+    <div class="needletail-result-pagination {{ hide_pagination }}">
+        {{#first_button}}
+            <div class="needletail-result-pagination-page needletail-result-pagination-first {{ disable_first_button }}" data-page="{{ first_page }}">{{{ first_button }}}</div>
+        {{/first_button}}
+        <div class="needletail-result-pagination-page needletail-result-pagination-previous {{ disable_previous_button }}" data-page="{{ previous_page }}">{{{ previous_button }}}</div>
+        {{#pages}}
+            <div class="needletail-result-pagination-page {{active}}" data-offset="{{offset}}" data-page="{{page}}">
+                {{page}}
+            </div>
+        {{/pages}}
+        <div class="needletail-result-pagination-page needletail-result-pagination-next {{ disable_next_button }}" data-page="{{ next_page }}">{{{ next_button }}}</div>
+        {{#last_button}}
+            <div class="needletail-result-pagination-page needletail-result-pagination-last {{ disable_last_button }}" data-page="{{ last_page }}">{{{ last_button }}}</div>
+        {{/last_button}}
+    </div>
+</div>
+`;

@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 700d2951-8b0c-4967-a8ad-a1b4d75c8a39
+            fieldUid: 700d2951-8b0c-4967-a8ad-a1b4d75c8a39 # Adres
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 68a697ab-e469-473a-8e9a-f80586424afe
+            fieldUid: 68a697ab-e469-473a-8e9a-f80586424afe # Postcode
             instructions: null
             label: null
             required: false
@@ -24,7 +24,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ecdd2e9c-0d0c-4384-a787-0aed387e0072
+            fieldUid: ecdd2e9c-0d0c-4384-a787-0aed387e0072 # Plaats
             instructions: null
             label: null
             required: false
@@ -34,7 +34,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b1545ecb-a324-43f5-92c9-e69c40ae5e57
+            fieldUid: b1545ecb-a324-43f5-92c9-e69c40ae5e57 # E-mailadres
             instructions: null
             label: null
             required: false
@@ -44,7 +44,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bc8624c2-e213-4ef9-9cb3-fe11ae404268
+            fieldUid: bc8624c2-e213-4ef9-9cb3-fe11ae404268 # Telefoon
             instructions: null
             label: null
             required: false

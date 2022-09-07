@@ -17,7 +17,7 @@ export default ({command}) => ({
     },
     plugins: [
         critical({
-            criticalUrl: 'http://boilerplate-craft4.test',
+            criticalUrl: 'http://needletail-examples-craft.test',
             criticalBase: './web/dist/criticalcss/',
             criticalPages: [
                 {uri: '/', template: 'index'}
