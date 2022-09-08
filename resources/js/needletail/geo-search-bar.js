@@ -50,8 +50,6 @@ if (document.getElementById(`geo-search-bar`)) {
     .setTemplate(GeoSearchBarTemplate) // Add a custom template.
     .setResultTemplate(GeoSearchBarResultsTemplate); // Add a custom dropdown template.
 
-    window.needletail.addWidget(geoSearchBar); // Add the widget to Needletail.
-
     function setGeoCoordinates(_) {
         if (_.detail.query !== geoSearchBar.getQuery() || !_.detail.value) {
             return;
@@ -64,6 +62,8 @@ if (document.getElementById(`geo-search-bar`)) {
     document.addEventListener(Events.onArrowMovementSearch, setGeoCoordinates);
     document.addEventListener(Events.onForceResultBlur, setGeoCoordinates);
     document.addEventListener(Events.onSubmitSearch, setGeoCoordinates);
+
+    window.needletail.addWidget(geoSearchBar); // Add the widget to Needletail.
 
     const urlString = window.location.href;
     const url = new URL(urlString);

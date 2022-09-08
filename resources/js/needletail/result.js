@@ -47,8 +47,6 @@ if (document.getElementById(`result`)) {
     .setResultTemplate(ResultResultsTemplate) // Add a custom result template.
     .setResultSortSelectTemplate(ResultSortTemplate); // Add a custom template for the sort select.
 
-    window.needletail.addWidget(resultWidget);
-
     document.addEventListener(Events.onResultRequest, (_) => {
         const latField = document.getElementById(`geo-coordinates-lat`);
         const lngField = document.getElementById(`geo-coordinates-lng`);
@@ -152,4 +150,6 @@ if (document.getElementById(`result`)) {
             document.querySelector(`.needletail-result-no-result`).after(newCtaDiv);
         }
     });
+
+    window.needletail.addWidget(resultWidget);
 }

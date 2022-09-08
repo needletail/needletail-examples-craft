@@ -31,7 +31,7 @@ if (document.getElementById(`home-search-bar`)) {
         },
         placeholder: `Zoek op functie of trefwoord`, // What placeholder should be put inside the input field Needletail generates.
         no_result_message: 'Geen resultaten gevonden', // If the search query doesn't return any result this is the message that will be shown.
-        in_url: true, // Should the search query be put in the URL. This is used for easy sharing the URL and being able to navigate back to the page with the same search query.
+        in_url: false, // Should the search query be put in the URL. This is used for easy sharing the URL and being able to navigate back to the page with the same search query.
         minimum_characters: 1, // The minimum amount of characters a user should type before we start searching.
         query: `e`, // How are we naming the search query in the URL.
         search_on_content_loaded: true, // If the page loads Needletail doesn't automatically search, if we enable this option Needletail will automatically search.
@@ -49,8 +49,6 @@ if (document.getElementById(`home-search-bar`)) {
     }))
     .setTemplate(HomeSearchBarTemplate) // Add a custom template.
     .setResultTemplate(HomeSearchBarResultsTemplate); // Add a custom dropdown template.
-
-    window.needletail.addWidget(homeSearchBar); // Add the widget to Needletail.
 
     function submitHomeSearchBar(search = null) {
         const urlString = window.location.href;
@@ -74,10 +72,6 @@ if (document.getElementById(`home-search-bar`)) {
         }
     }
 
-    // Register the click event for the button.
-    const homeSearchButton = document.getElementById(`home-search-button`);
-    homeSearchButton.addEventListener(`click`, (_) => submitHomeSearchBar());
-
     document.addEventListener((Events.onSubmitSearch), (_) => {
         if (_.detail.query !== homeSearchBar.getQuery()) {
             return;
@@ -91,4 +85,10 @@ if (document.getElementById(`home-search-bar`)) {
             submitHomeSearchBar(_.detail.value);
         }
     });
+
+    window.needletail.addWidget(homeSearchBar); // Add the widget to Needletail.
+
+    // Register the click event for the button.
+    const homeSearchButton = document.getElementById(`home-search-button`);
+    homeSearchButton.addEventListener(`click`, (_) => submitHomeSearchBar());
 }

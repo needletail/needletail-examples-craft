@@ -50,8 +50,6 @@ if (document.getElementById('result-search-bar')) {
     .setTemplate(ResultSearchBarTemplate) // Add a custom template.
     .setResultTemplate(ResultSearchBarResultsTemplate); // Add a custom dropdown template.
 
-    window.needletail.addWidget(resultSearchBar); // Add the widget to Needletail.
-
     function submitResultSearchBar(search = null) {
         const urlString = window.location.href;
         const url = new URL(urlString);
@@ -74,10 +72,6 @@ if (document.getElementById('result-search-bar')) {
         }
     }
 
-    // Register the click event for the button.
-    const resultSearchButton = document.getElementById(`result-search-button`);
-    resultSearchButton.addEventListener(`click`, (_) => submitResultSearchBar());
-
     document.addEventListener((Events.onSubmitSearch), (_) => {
         if (_.detail.query !== resultSearchBar.getQuery()) {
             return;
@@ -92,5 +86,9 @@ if (document.getElementById('result-search-bar')) {
         }
     });
 
+    window.needletail.addWidget(resultSearchBar); // Add the widget to Needletail.
 
+    // Register the click event for the button.
+    const resultSearchButton = document.getElementById(`result-search-button`);
+    resultSearchButton.addEventListener(`click`, (_) => submitResultSearchBar());
 }
